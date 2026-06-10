@@ -1,0 +1,31 @@
+services:
+  - type: web
+    name: petluxe-backend
+    env: php
+    rootDir: backend
+    buildCommand: 'composer install -n --prefer-dist --optimize-autoloader --no-dev && php artisan key:generate && php artisan migrate --force && php artisan config:cache && php artisan route:cache && php artisan view:cache'
+    # For a standard Laravel app on Render, we just let Apache/Nginx serve public/. Render PHP env defaults to DocumentRoot /public if we don't specify differently, but we can set it.
+    # We will use the default start command for Render PHP, which automatically serves the app.
+    envVars:
+      - key: APP_NAME
+        value: PetLuxe
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: false
+      - key: APP_KEY
+        generateValue: true
+      - key: LOG_CHANNEL
+        value: stderr
+      - key: DB_CONNECTION
+        value: mysql
+      - key: DB_HOST
+        sync: false
+      - key: DB_PORT
+        value: 3306
+      - key: DB_DATABASE
+        sync: false
+      - key: DB_USERNAME
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
