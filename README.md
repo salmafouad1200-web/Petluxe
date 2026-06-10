@@ -19,13 +19,15 @@ PetLuxe helps pet owners manage their pets, book veterinary appointments, use AI
 ## 🧱 Tech Stack
 
 ### Frontend
-- React 19 (Vite)
+- React 19
+- Vite
 - Tailwind CSS
 - React Router DOM
 - React Query
 
 ### Backend
-- Laravel 11 (PHP 8.2)
+- Laravel 11
+- PHP 8.2
 - Sanctum authentication
 
 ### Database
@@ -40,6 +42,12 @@ PetLuxe/
 ├── docs/
 └── README.md
 ```
+
+## ⚙️ Deployment
+
+- Frontend: Vercel
+- Backend: Render
+- Database: MySQL
 
 ## 📚 Documentation
 
