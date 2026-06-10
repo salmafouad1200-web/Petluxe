@@ -8,18 +8,19 @@ PetLuxe provides a complete digital ecosystem for managing pets, booking veterin
 
 ## ✨ Features
 
-- Secure authentication system (Laravel Sanctum)
+- Secure authentication (Laravel Sanctum)
 - Pet management with full CRUD operations
 - AI-powered assistant for health insights and breed analysis
 - Online veterinary appointment booking
 - E-commerce marketplace for pet products
 - Community platform (posts, likes, comments)
-- Admin dashboard for platform management
+- Admin dashboard
 
 ## 🧱 Tech Stack
 
 ### Frontend
-- React 19 (Vite)
+- React 19
+- Vite
 - Tailwind CSS
 - React Router DOM
 - React Query
@@ -27,7 +28,7 @@ PetLuxe provides a complete digital ecosystem for managing pets, booking veterin
 ### Backend
 - Laravel 11
 - PHP 8.2
-- Sanctum Authentication
+- Sanctum authentication
 
 ### Database
 - MySQL
