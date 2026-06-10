@@ -1,26 +1,25 @@
 # PetLuxe 🐾
 
-PetLuxe is a full-stack SaaS platform for pet care built with a modern and scalable architecture.
+PetLuxe is a full-stack SaaS platform designed to simplify pet care and improve the experience of pet owners using modern web technologies.
 
 ## 🚀 Overview
 
-PetLuxe helps pet owners manage their pets, book veterinary appointments, use AI assistance, and interact through a marketplace and community.
+PetLuxe provides a complete digital ecosystem for managing pets, booking veterinary services, using AI assistance, and interacting through a community and marketplace.
 
 ## ✨ Features
 
-- Authentication (Laravel Sanctum)
-- Pet management (CRUD system)
-- AI assistant (health tips, breed analysis)
-- Veterinary appointment booking
-- Marketplace (products & orders)
-- Social community (posts, likes, comments)
-- Admin dashboard
+- Secure authentication system (Laravel Sanctum)
+- Pet management with full CRUD operations
+- AI-powered assistant for health insights and breed analysis
+- Online veterinary appointment booking
+- E-commerce marketplace for pet products
+- Community platform (posts, likes, comments)
+- Admin dashboard for platform management
 
 ## 🧱 Tech Stack
 
 ### Frontend
-- React 19
-- Vite
+- React 19 (Vite)
 - Tailwind CSS
 - React Router DOM
 - React Query
@@ -28,7 +27,7 @@ PetLuxe helps pet owners manage their pets, book veterinary appointments, use AI
 ### Backend
 - Laravel 11
 - PHP 8.2
-- Sanctum authentication
+- Sanctum Authentication
 
 ### Database
 - MySQL
