@@ -33,16 +33,6 @@ PetLuxe helps pet owners manage their pets, book veterinary appointments, use AI
 ### Database
 - MySQL
 
-## 📦 Project Structure
-
-```text
-PetLuxe/
-├── frontend/
-├── backend/
-├── docs/
-└── README.md
-```
-
 ## ⚙️ Deployment
 
 - Frontend: Vercel
