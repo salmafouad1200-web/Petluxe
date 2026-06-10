@@ -1,28 +1,54 @@
-# PetLuxe - Premium SaaS Platform 🐾
+# PetLuxe 🐾
 
-PetLuxe is a full-stack, production-ready SaaS application dedicated to pet care. It features a modern React (Vite) frontend with Tailwind CSS and a robust Laravel backend API.
+PetLuxe is a full-stack SaaS platform for pet care built with a modern and scalable architecture.
 
-## Features
+## 🚀 Overview
 
-- **Authentication**: Secure registration/login using Laravel Sanctum.
-- **Pet Management**: Full CRUD for pets, medical records, and document uploads.
-- **AI Analysis & Chat**: Integrated AI module for breed detection, health tips, and a chat assistant.
-- **Veterinary Appointments**: Discover veterinarians and book appointments online.
-- **Marketplace**: Browse products, manage a cart, and complete orders.
-- **Community**: Social network features including posts, likes, and comments.
-- **Admin Dashboard**: Comprehensive statistics, user management, and exports.
+PetLuxe helps pet owners manage their pets, book veterinary appointments, use AI assistance, and interact through a marketplace and community.
 
-## Architecture & Tech Stack
+## ✨ Features
 
-- **Frontend**: React 19, Vite, Tailwind CSS, React Router DOM, React Query, Lucide Icons.
-- **Backend**: Laravel 11, PHP 8.2.
-- **Database**: MySQL.
+- Authentication (Laravel Sanctum)
+- Pet management (CRUD system)
+- AI assistant (health tips, breed analysis)
+- Veterinary appointment booking
+- Marketplace (products & orders)
+- Social community (posts, likes, comments)
+- Admin dashboard
 
-## Documentation
+## 🧱 Tech Stack
 
-- [Installation Guide](docs/Installation.md)
-- [Deployment Guide](docs/Deployment.md)
-- [Environment Variables](docs/EnvironmentVariables.md)
+### Frontend
+- React 19 (Vite)
+- Tailwind CSS
+- React Router DOM
+- React Query
+
+### Backend
+- Laravel 11 (PHP 8.2)
+- Sanctum authentication
+
+### Database
+- MySQL
+
+## 📦 Project Structure
+
+```text
+PetLuxe/
+├── frontend/
+├── backend/
+├── docs/
+└── README.md
+```
+
+## 📚 Documentation
+
+- Installation Guide → `docs/Installation.md`
+- Deployment Guide → `docs/Deployment.md`
+- Environment Variables → `docs/EnvironmentVariables.md`
 
 ---
-*Built with ❤️ for pets and their owners.*
+
+## ❤️ About
+
+Built with passion for pets and modern web technologies.
